@@ -1,13 +1,18 @@
+local playerUsername = "KingdomofGregiscool"
+local prefix = "."
+local messageLL = "Discord: Araak4" 
+local speed = 9.5
+local render1 = false
+local resettime = 5.4
+
 local teleportLocations = {
     ["Castle3"] = Vector3.new(-5051.80078125, 313.96551513671875, -2607.118896484375),
     ["KingdomOfRose2"] = Vector3.new(335.5157775878906, 72.99977111816406, 425.61676025390625)
 }
 
 local antiAFKEnabled = true
-local antiAFKTimer = 60 -- Time in seconds before anti-AFK action is triggered
-
+local antiAFKTimer = 60
 local autorolling = true
-
 local availableFruits = {
     "Kitsune", "Leopard", "Dragon", "Spirit", "Control", "Venom", "Shadow", "Dough", "Mammoth", "Gravity",
     "Blizzard", "Rumble", "Paw", "Portal", "Phoenix", "Sound", "Spider", "Love", "Buddha", "Quake",
